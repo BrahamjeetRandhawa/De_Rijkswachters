@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #85ab70;
+    background-attachment: fixed;
+}
+
+main {
+    padding-bottom: 50%;
+}
+
+h1 img {
+    display: flex;
+    margin: auto;
+    scale: 1.3;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    bottom: 10px;
+    left: 4%;
+    position: fixed;
+    overflow: hidden;
+    list-style-type: none;
+    width: 90%;
+    background-color: #85ab70;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 10px rgba(0, 0, 0, 0.504);
+}
+
+nav ul li img {
+    scale: 0.7;
+}
+
+nav ul li:nth-of-type(2) img {
+    margin-left: 40%;
+}
+
+nav ul li:last-of-type img {
+    margin-left: 30%;
+}
+
+main div {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+main img {
+    margin-top: 10px;
+    border: 5px solid white;
+}
+
+
+h2 {
+    text-align: center;
+    width: 77%;
+    margin-left: 10%;
+    font-family: "aria-text-g2", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: "adelle-sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+p {
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* index************************************* */
+
+.index main img {
+    width: 80%;
+    margin-left: 9%;
+    border-radius: 20px;
+}
+
+.index main div h3 {
+    margin-top: 5px;
+}
+
+.index main div h2 {
+    border: solid rgba(0, 0, 0, 0.504);
+    border-radius: 20px;
+}
+
+.index main h2:first-of-type, .index main div:first-of-type article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.index main div:nth-of-type(2) article {
+    margin-bottom: 30px;
+}
+
+.index main h2:nth-of-type(2), .index main div:nth-of-type(2) article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.index main h2:first-of-type {
+    margin-top: 10px;
+}
+
+.index main div:nth-of-type(n+2) article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.index header nav ul li:nth-of-type(2) img {
+    scale: 0.8;
+}
+
+/* .uitleg***************************************** */
+
+.uitleg main div:first-of-type {
+    width: 40%;
+    background-color: transparent;
+}
+
+.uitleg main div:first-of-type img {
+    width: 80%;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.uitleg main div:first-of-type, .uitleg main div:first-of-type img {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.uitleg main div:nth-of-type(n+1) article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.uitleg main h2 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.uitleg main div:nth-of-type(2) img:nth-of-type(n+1) {
+    float: left;
+    width: 20%;
+    justify-content: space-around;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+
+.uitleg main div:nth-of-type(2) img:active {
+    transform: scale(3.5);
+    transition-timing-function: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transition-duration: 400ms;
+}
+
+.uitleg main div:nth-of-type(2) img:first-of-type {
+    margin-left: 10%;
+}
+
+.uitleg header nav ul li:first-of-type img {
+    scale: 0.8;
+}
+
+/* .duurzaamheid********************************* */
+
+.duurzaamheid main div:nth-of-type(2) img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.duurzaamheid main div {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.duurzaamheid main article {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.duurzaamheid main h2 {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.duurzaamheid header nav ul li:last-of-type img {
+    scale: 0.8;
+}
+
+.top {
+    text-decoration: none;
+    padding: 3%;
+    color: white;
+    border-radius: 10px;
+    position: sticky;
+    text-align: center;
+    left: 45%;
+    font-size: 30px;
+}
+
